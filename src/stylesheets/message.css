@@ -1,0 +1,144 @@
+.message-item{
+    /* width: 100%; */
+    padding:2px 0%;
+    display: flex;
+    /* background-color: red; */
+}
+.message-sender-image-container{
+    padding: 5px;
+    padding-bottom: 0px;
+    display: flex;
+    /* justify-content: center; */
+    align-items: flex-end;
+}
+.message-sender-image-container img{
+    width: 35px;
+    border-radius: 50%;
+}
+.message-item > div:nth-child(2){
+    display: flex;
+    white-space: pre-line;
+    text-align: left;
+    justify-content: space-between;
+    width: 100%;
+    /* background-color: red; */
+}
+.message-item > div:nth-child(2) > div:nth-child(1){
+    color : black;
+    /* border: solid black; */
+    display : inline-block;
+    padding : 11px;
+    padding-bottom: 5px;
+    border-radius : 15px 15px 15px 0px;
+    background-color: #0A40A4;
+    /* background-color: red; */
+    color: black;
+    max-width: 80%;
+    overflow-wrap: break-word;
+    color: white;
+}
+
+.messageList{
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-left: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    /* overflow-y: scroll;
+    overflow-x: hidden; */
+
+    /* background: linear-gradient(0deg, hsla(188, 88%, 34%, 1) 0%, hsla(105, 11%, 85%, 1) 100%); */
+}
+
+/* .messageList::-webkit-scrollbar{
+    width: 6px;
+}
+
+.messageList::-webkit-scrollbar-track{
+    background-color: transparent;
+}
+.messageList::-webkit-scrollbar-thumb{
+    background-color: aqua;
+    border-radius: 10px;
+} */
+
+.sender-name{
+    font-size: 12px;
+    /* border-bottom: groove 1px; */
+    color: lightblue;
+}
+
+
+
+#typingIndicator{
+    /* color:#d3d3d3; */
+    color: rgba(255,255,255,.8);
+}
+
+#sent-at{
+    color: #8BFBD6;
+    /* color: #41C4C4; */
+    font-size: 10px;
+    margin-top: 6px;
+}
+#sent-at-sender{
+    color:#33F9B8;
+    font-size: 10px;
+    margin-top: 6px;
+    
+
+}
+.user-sender{
+    /* flex-direction: row-reverse; */
+    justify-content: flex-end !important;
+    text-align: right !important;
+    
+}
+
+.user-sender> div:nth-child(1){
+    background-color:rgb(64, 127, 243) !important;
+    color: white !important;
+    border-radius : 15px 15px 0px 15px !important;
+    
+}
+.sending > div:nth-child(2) > div:nth-child(1){
+    background-color: red !important;
+}
+.senderimagediv{
+    display: flex;
+    align-items: flex-end;
+}
+.senderimagediv >img{
+    height: 15px;
+    width: 15px;
+    border-radius: 10px;
+    margin-left: 5px;
+    transition: transform 1s;
+    
+}
+.message-item-no-image{
+    margin-right: 18px;
+}
+.message-date-container{
+    text-align: center;
+}
+
+@media screen and (max-width : 775px){
+    .messageList{
+        padding-left: 5px;
+    }
+}
+
+@media screen and (max-width : 650px){
+    .messageList{
+        margin-left: 5px;
+        padding-left: 0px;
+
+    }
+    .message-sender-image-container img{
+        width: 25px;
+        border-radius: 50%;
+    }
+}

@@ -1,0 +1,110 @@
+
+.root-container{
+    height: 100%;
+    background: hsla(141, 54%, 86%, 1);
+
+    background: linear-gradient(90deg, hsla(141, 54%, 86%, 1) 0%, hsla(333, 73%, 85%, 1) 50%, hsla(211, 58%, 79%, 1) 100%);
+
+    background: -moz-linear-gradient(90deg, hsla(141, 54%, 86%, 1) 0%, hsla(333, 73%, 85%, 1) 50%, hsla(211, 58%, 79%, 1) 100%);
+
+    background: -webkit-linear-gradient(90deg, hsla(141, 54%, 86%, 1) 0%, hsla(333, 73%, 85%, 1) 50%, hsla(211, 58%, 79%, 1) 100%);
+
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#CAEFD7", endColorstr="#F5BFD7", GradientType=1 );
+}
+
+.header{
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color: rgb(255,255,255);
+    text-shadow: 1em 1em 3em darkturquoise;
+    font-size: 1.3em;
+    color: darkcyan;
+}
+.loginlinks{
+    text-align: center;
+}
+
+.loginlinks button{
+    font-size: 17px;
+    padding: 5px 15px;
+    background-color: #007FFF;
+    color: white;
+    border: solid 0px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    width: 220px;
+}
+
+.button-icons{
+    color: white;
+}
+.centertext{
+    text-align: center;
+}
+
+.login-icons-container{
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    min-height: 40%;
+}
+.split-container{
+    display: flex;
+}
+.login{
+    /* display: inline-block; */
+    /* background-color: blue; */
+    border-right: groove 1px ;
+}
+.signup{
+    /* background-color: pink; */
+    /* display: inline-block; */
+    
+    border-left: groove 1px ;
+}
+.side{
+    /* margin: 1rem; */
+    display: flex;
+    flex-direction: column;
+}
+
+.google{
+    /* color: white; */
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.facebook{
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* color: white; */
+}
+.login-icons{
+    font-size: 5rem;
+}
+
+.login-icons-wrapper-div{
+    /* background-color: green; */
+    padding: 1em;
+    margin: 1em;
+    color: darkcyan;
+    /* color: red; */
+    border: groove .2em ;
+}
+
+.side-text{
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+    /* background-color: red; */
+}
+.selected-link{
+    border: inset .2em white;
+}
