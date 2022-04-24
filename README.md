@@ -65,9 +65,3 @@ mobile
     <img src = 'ss/mobile2.png' width = 350px>
 </p>
 
-
-<style>
-img[src*="#login"]{
-    width:300px;
-}
-</style>
